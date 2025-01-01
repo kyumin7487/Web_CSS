@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>CSS마스터</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+            background: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 50px 0 20px;
+            font-size: 2.5rem;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+<h1>CSS 마스터되기</h1>
+<nav>
+    <a href="./3D%20Japanese%20cartoons/" target="_blank">일본영화 모음</a>
+    <a href="./3D%20Slider/" target="_blank">닌자와 용</a>
+    <a href="./filltextImage/" target="_blank">우리집 개</a>
+    <a href="./Modern%20Loading/" target="_blank">로딩 애니메이션</a>
+    <!-- 추가될 항목도 자연스럽게 줄바꿈되며 정렬됩니다 -->
+</nav>
+</body>
+</html>
